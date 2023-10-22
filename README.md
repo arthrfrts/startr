@@ -1,4 +1,4 @@
-# Starter
+# Startr
 A starter theme to kickstart the development of my Tumblr themes.
 
 **Features include:**
