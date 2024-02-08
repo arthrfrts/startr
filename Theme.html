@@ -105,25 +105,24 @@
 				{/block:ShowTitle}
 			</a>
 
-				<nav aria-label="{lang:Navigate}">
-					{block:HasPages}
-						{block:Pages}
-							<a href="{URL}" {Target}>{Label}</a>
-						{/block:Pages}
-					{/block:HasPages}
-					{block:AskEnabled}
-						<a href="/ask" {Target}>{AskLabel}</a>
-					{/block:AskEnabled}
-					{block:SubmissionsEnabled}
-						<a href="/submit" {Target}>{SubmitLabel}</a>
-					{/block:SubmissionsEnabled}
-					{block:Likes}
-						<a href="/likes" {Target}>{lang:Likes}</a>
-					{/block:Likes}
-					<a href="/archive" {Target}>{lang:Archive}</a>
-					<a href="/random" {Target}>{lang:Random}</a>
-				</nav>
-			</div>
+			<nav aria-label="{lang:Navigate}">
+				{block:HasPages}
+					{block:Pages}
+						<a href="{URL}" {Target}>{Label}</a>
+					{/block:Pages}
+				{/block:HasPages}
+				{block:AskEnabled}
+					<a href="/ask" {Target}>{AskLabel}</a>
+				{/block:AskEnabled}
+				{block:SubmissionsEnabled}
+					<a href="/submit" {Target}>{SubmitLabel}</a>
+				{/block:SubmissionsEnabled}
+				{block:Likes}
+					<a href="/likes" {Target}>{lang:Likes}</a>
+				{/block:Likes}
+				<a href="/archive" {Target}>{lang:Archive}</a>
+				<a href="/random" {Target}>{lang:Random}</a>
+			</nav>
 		</header>
 
 		<main>
